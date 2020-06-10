@@ -11,7 +11,7 @@ div{
     background-color: #364b4f;
     color: #e0e2de;
     border-radius: 5px;
-    width: 50%;
+    width: fit-content;
     margin: auto;
     padding: 10px;
     text-align: center;
