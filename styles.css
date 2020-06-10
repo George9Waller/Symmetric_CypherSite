@@ -1,0 +1,49 @@
+@import url('https://fonts.fontself.com/gE309jx/gilbert-color-bold-preview5.css');
+
+body
+{
+    background-color: #2F3435;
+    font-family: "Gilbert Color";
+    vertical-align: middle;
+}
+
+div{
+    background-color: #364b4f;
+    color: #e0e2de;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: auto;
+    word-wrap: break-word;
+}
+
+#newTxt, #originalTxt
+{
+    font-family: "Roboto Slab";
+}
+
+button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #364b4f;
+    background-color: #364b4f;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#e0e2de;
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover {
+    color: #2F3435;
+    background-color: #e0e2de;
+}
+
+input, textarea
+{
+    color: #e0e2de;
+    background-color: #2F3435;
+}

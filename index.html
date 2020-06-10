@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cypher</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="UX">
+
+    <h1>Cyphers</h1>
+    <h2>Caesar Cypher</h2>
+    <form>
+        <textarea id="cesarTxt" placeholder="Text to be encrypted" rows="7" cols="50" onclick="this.select()"></textarea>
+        <br>
+        <input id="cesarVal" type="number" value="0">
+        <br>
+        <button id="cesarBtn" type="button" onclick="cypher()">Cypher</button>
+        <button id="cesarUnBtn" type="button" onclick="deCypher()">De-Cypher</button>
+    </form>
+<br>
+    <h2>Polyalphabetic Cypher</h2>
+    <form>
+        <textarea id="polyTxt" placeholder="Text to be encrypted" rows="7" cols="50" onclick="this.select()"></textarea>
+        <br>
+        <textarea id="polyVal" placeholder="Word/phrase to shift by"></textarea>
+        <br>
+        <button id="polyBtn" type="button" onclick="cypherPoly()">Cypher</button>
+        <button id="polyUnBtn" type="button" onclick="deCypherPoly()">De-Cypher</button>
+    </form>
+
+</div>
+<br>
+<canvas id="originalgraph"></canvas>
+<br>
+<div id="original">
+    <h2>Original Text</h2>
+    <p id="originalTxt">Original Text</p>
+    <button type="button" onclick="copyText('originalTxt')">Copy</button>
+</div>
+<br>
+<div id="new">
+    <h2>Result Text</h2>
+    <p id="newTxt">New Text</p>
+    <button type="button" onclick="copyText('newTxt')">Copy</button>
+</div>
+
+<script src="Ceaser%20Cypher.js"></script>
+<script src="PolyAlphabetic%20Cypher.js"></script>
+</body>
+</html>
