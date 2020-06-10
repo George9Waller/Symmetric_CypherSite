@@ -3,7 +3,7 @@
 body
 {
     background-color: #2F3435;
-    font-family: "Gilbert Color";
+    font-family: "Gilbert Color", "Andale Mono", sans-serif;
     vertical-align: middle;
 }
 
@@ -21,7 +21,28 @@ div{
 
 #newTxt, #originalTxt
 {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", Courier, monospace;
+}
+
+#GitHub
+{
+    color: #e0e2de;
+    width: fit-content;
+}
+
+a:link
+{
+    color: #e0e2de;
+}
+
+a:hover
+{
+    color: #2F3435;
+}
+
+a:visited
+{
+    color: #dee2e2;
 }
 
 button {
