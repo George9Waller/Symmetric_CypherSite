@@ -11,12 +11,16 @@ div{
     background-color: #364b4f;
     color: #e0e2de;
     border-radius: 5px;
-    width: 30%;
+    width: fit-content;
     margin: auto;
     padding: 10px;
     text-align: center;
     vertical-align: auto;
     word-wrap: break-word;
+}
+
+textarea {
+    width: 45%
 }
 
 #newTxt, #originalTxt
