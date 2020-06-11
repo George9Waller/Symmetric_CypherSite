@@ -1,5 +1,10 @@
 @import url('https://fonts.fontself.com/gE309jx/gilbert-color-bold-preview5.css');
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #2F3435;
@@ -71,4 +76,25 @@ input, textarea
 {
     color: #e0e2de;
     background-color: #2F3435;
+}
+
+#topBtn
+{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    border-radius: 1%;
+    font-size: xx-large;
+    width: fit-content;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@keyframes fadeIn
+{
+    0% {opacity: 0}
+    25% {opacity: 0.25}
+    50% {opacity: 0.5}
+    75%{opacity: 0.75}
+    100% {opacity: 1}
 }

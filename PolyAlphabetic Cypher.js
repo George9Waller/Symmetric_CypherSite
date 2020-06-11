@@ -17,6 +17,7 @@ function cypherPoly()
 
     document.getElementById("originalTxt").innerText = input;
     document.getElementById("newTxt").innerText = result;
+    scrollToOriginal();
 
     makeGraphs();
 }
@@ -40,6 +41,7 @@ function deCypherPoly()
 
     document.getElementById("originalTxt").innerText = input;
     document.getElementById("newTxt").innerText = result;
+    scrollToOriginal();
 
     makeGraphs();
 }

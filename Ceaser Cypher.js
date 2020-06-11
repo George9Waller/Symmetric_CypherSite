@@ -22,6 +22,7 @@ function cypher() {
 
     document.getElementById("originalTxt").innerText = input;
     document.getElementById("newTxt").innerText = result;
+    scrollToOriginal();
 
     makeGraphs();
 }
@@ -41,6 +42,7 @@ function deCypher()
 
     document.getElementById("originalTxt").innerText = input;
     document.getElementById("newTxt").innerText = result;
+    scrollToOriginal();
 
     makeGraphs();
 }
