@@ -20,7 +20,7 @@
         <button id="cesarBtn" type="button" onclick="cypher()">Cypher</button>
         <button id="cesarUnBtn" type="button" onclick="deCypher()">De-Cypher</button>
     </form>
-<br>
+    <br>
     <h2>Polyalphabetic Cypher</h2>
     <form>
         <label for="polyTxt"></label><textarea id="polyTxt" placeholder="Text to be encrypted" rows="7" cols="50" onclick="this.select()"></textarea>
@@ -30,6 +30,17 @@
         <button id="polyBtn" type="button" onclick="cypherPoly()">Cypher</button>
         <button id="polyUnBtn" type="button" onclick="deCypherPoly()">De-Cypher</button>
     </form>
+    <br>
+    <h2>Vernam Cypher</h2>
+    <form>
+        <label for="vernamTxt"></label><textarea id="vernamTxt" placeholder="Text to be encrypted" rows="7" cols="50" onclick="this.select()"></textarea>
+        <br>
+        <label for="vernamVal"></label><textarea id="vernamVal" placeholder="Generated key will go here" onclick="this.select()"></textarea>
+        <br>
+        <button id="vernamBtn" type="button" onclick="cypherVernam()">Cypher</button>
+        <button id="VernamUnBtn" type="button" onclick="deCypherVernam()">De-Cypher</button>
+    </form>
+
 
 </div>
 <br>
@@ -53,5 +64,6 @@
 
 <script src="Ceaser%20Cypher.js"></script>
 <script src="PolyAlphabetic%20Cypher.js"></script>
+<script src="Vernam.js"></script>
 </body>
 </html>

@@ -121,7 +121,7 @@ function frequencyAnalysis(frequencyString) {
     for (let k = 0; k < result.length; k++)
     {
         result[k] = 0;
-        console.log(result[k])
+        //console.log(result[k])
     }
 
     for (let i = 0; i < frequencyString.length; i++) {
