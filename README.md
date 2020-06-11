@@ -5,19 +5,19 @@ View the site at: https://george9waller.github.io/Symmetric_CypherSite/
 
 **Site Functions**
 -
-#####**Ceaser Shift**
+**Ceaser Shift**
 - Shifts input box by chosen value. Converts input to all lowercase and only shifts within range of lowercase letters. 
 All punctuation and special characters are preserved.
 - To decypher the shift is again reduced to within 0-26 and subtracted from the ASCII of the input, rolling back to the
 end of lowercase characters is necessary.
 
-#####**Polyalphabetic shift**
+**Polyalphabetic shift**
 - Takes an input and shift string. Shifts each input by the corresponding character in shift string looping shift string 
 if necessary. All punctuation and special characters are preserved.
 - To decypher the ASCII of the shift string is subtracted from the input rolling back to the end of lowercase characters
 if necessary.
 
-#####**Vernam Shift**
+**Vernam Shift**
 - Takes an input string. Generates a shift string the same length as the input from ASCII 33 to 126 inclusive. Using 
 bitwise XOR the input and key are combined to produce a resulting encrypted string. If the result is less than 33 then
 the code is shifted by 126 to make all characters visible using extended unicode characters.
